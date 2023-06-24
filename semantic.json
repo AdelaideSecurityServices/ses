@@ -1,0 +1,44 @@
+{
+  "base": "semantic/",
+  "paths": {
+    "source": {
+      "config": "src/theme.config",
+      "definitions": "src/definitions/",
+      "site": "src/site/",
+      "themes": "src/themes/"
+    },
+    "output": {
+      "packaged": "dist/",
+      "uncompressed": "dist/components/",
+      "compressed": "dist/components/",
+      "themes": "dist/themes/"
+    },
+    "clean": "dist/"
+  },
+  "permission": false,
+  "autoInstall": false,
+  "rtl": false,
+  "version": "2.2.7",
+  "components": [
+    "reset",
+    "button",
+    "container",
+    "icon",
+    "image",
+    "input",
+    "label",
+    "list",
+    "form",
+    "menu",
+    "message",
+    "card",
+    "item",
+    "tab",
+    "form"
+  ],
+  "admin": false,
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1"
+  }
+}
